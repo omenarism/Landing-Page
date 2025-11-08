@@ -123,6 +123,30 @@ img {
 
 /* FOURTH SECTION */
 
+.four-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.callup {
+    width: 800px;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 56px;
+    padding: 48px 100px;
+    border-radius: 10px;
+}
+
+.callup-kiri {
+
+}
+
+
 button {
     background-color: #3882F6;
     border-radius: 5px;
@@ -130,9 +154,11 @@ button {
     padding: 8px 36px;
     font-size: 16px;
     max-width: 140px;
+    border: 1px solid #F9FAF8;
 }
 
 footer {
     font-size: 16px;
     padding: 32px;
 }
+
